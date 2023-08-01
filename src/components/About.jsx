@@ -1,5 +1,5 @@
 import React from 'react';
-import about_image from '../Assets/about_image.png'
+import sumitsagar from '../Assets/sumitsagar.png'
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
         </p>
       </div>
       <div className='flex flex-col  items-center  sm:flex-row'>
-        <div className='w-2/6 '> <img src={about_image} alt=""  /> </div>
+        <div className='w-2/6 '> <img src={sumitsagar} alt=""  /> </div>
         <div className=' text- w-4/6 sm:px-1'>
           <p>Frontend Developer with approx 2 years of experience at Growstairs Technology Limited. Proficient in HTML, CSS, JavaScript, and responsive design. Demonstrated expertise in developing visually appealing and user-friendly interfaces. Skilled in collaborating with cross-functional teams to translate design concepts into functional websites. Committed to staying updated with the latest industry trends and best practices.
           </p>
