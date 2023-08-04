@@ -3,9 +3,9 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import SocialLinks from "./components/SocialLinks";
-import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Portfolio />
+      <Projects />
       <Experience />
       <Contact />
       <SocialLinks />
