@@ -13,7 +13,7 @@ const Contact = () => {
             <input 
                 type="text" 
                 name="name" 
-                placeholder="Enter Yur Name" 
+                placeholder="Enter Your Name" 
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input 
@@ -25,7 +25,7 @@ const Contact = () => {
             <textarea 
                 name="message"  
                 rows="8"
-                placeholder="Enter your message"
+                placeholder="Enter Your Message"
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
             <button className=" text-white bg-gradient-to-r from-blue-700 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"> Let's Talk</button>

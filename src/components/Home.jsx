@@ -19,12 +19,12 @@ const Home = () => {
             , CSS , JavaScript , React.js , Tailwind.
           </p>
           <div>
-            <button className="group text-white text-lg w-fit my-2 flex items-center justify-center pl-6 py-4 cursor-pointer rounded-md space-x-4 bg-gradient-to-r from-blue-700 via-blue-600">
+            <a href="/sumitSagarCv.docx" download="sumitSagarCv.docx" className="group text-white text-lg w-fit my-2 flex items-center justify-center pl-6 py-4 cursor-pointer rounded-md space-x-4 bg-gradient-to-r from-blue-700 via-blue-600">
               Download CV
               <span className=" group-hover:rotate-90 duration-300 px-6">
                 <FaArrowRight size={21} />
               </span>
-            </button>
+            </a>
           </div>
         </div>
         <div>
