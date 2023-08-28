@@ -6,7 +6,10 @@ const Projects = () => {
   const project=[
     {
       id: 1,
-      src: DemoTile
+      src: DemoTile,
+      demoLink:" https://sumit-sagar-16.github.io/SumitSagar-Portfolio/",
+      codeLink:" https://github.com/sumit-sagar-16/SumitSagar-Portfolio"
+    
     },
     {
       id: 2,
@@ -31,13 +34,13 @@ const Projects = () => {
 
         
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px1 '>
-       { project.map(({id,src}) => (
+       { project.map(({id,src,demoLink,codeLink}) => (
 
           <div key={id} className='shadow-md shadow-gray-500 rounded-lg'>
             <img src = {src} alt='DemoPicture' className=' duration-200 hover:scale-110 '/>
             <div className='flex items-center justify-center'>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Demo</button>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Code</button>
+              <a href= {demoLink} target='_blank' rel='noopener noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Demo</a>
+              <a href= {codeLink} target='_blank' rel='noopener noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Code</a>
             </div>
           </div>
         )) }
